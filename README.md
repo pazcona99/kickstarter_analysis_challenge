@@ -1,1 +1,0 @@
-# kickstarter_analysis_challenge
