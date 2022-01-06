@@ -24,7 +24,7 @@ Interestingly, the overall trend, when not filtering for theater campaigns, inid
 
 The line chart provided below illustrates the number of successful, failed, or cancelled theater outcomes in relation to the month of launch on the x-axis. Moreoever, when filtering for the theater campaigns only, a `visible peak is observed in the month of May` followed by a sharp decline for the rest of the year. The `failed outcomes of the theater campaigns is maintained at approxitmately 40` throughout the year. The number of cancelled theater campaigns is maintained below 7 throughout the year.  
 
-![Outcomes vs. Launch Date](Resources\Theater_Outcomes_vs_Launch.png)
+![Outcomes vs. Launch Date](Theater_Outcomes_vs_Launch.png)
 
 The challenge associated with this particular activity is derived mostly in the ability to add contents to the right fields. This comes with an understanding of what the table is supposed to look like. One should understand the rows should include something with respect to time, and the result that is being measured is the count of the outcomes for each type of outcome. There are some small Excel nuisances such as knowing that inputting items in the "rows" field may yield some default items that don't necessarily add value to the dataset.  
 
@@ -32,7 +32,7 @@ The challenge associated with this particular activity is derived mostly in the 
 
 For this analysis, from each campaign, the percentage of successful, failed, and cancelled plays was correlated to the funding goal amount. The scope of the analysis was restricted to the subcategory *plays*. The data was restructured to count the number for a particular outcome within a $5,000 range of a goal. For each goal range, the particular outcome was represented as a percentage of the overall plays in that same range. From this subset, the line chart illustrated below was generated to visualize the relationship between the goal-amount ranges on the x-axis and percentage of successful, failed, and cancelled projects on the y-axis. 
 
-![Outcomes vs. Fund Goals](Resources/Outcomes_vs_Goals.png)
+![Outcomes vs. Fund Goals](Outcomes_vs_Goals.png)
 
 The percentage of successful campaigns depicts no discernable pattern. The percentage of the `successful outcomes in comparison to the goal amount can be observed to be inverse up to $30,000`; however, this pattern changes briefly between $30,000 to $45,0000, followed by a sharp decline for anything larger. The percentage of `failed campaigns shows positive correlation up to $30,000`; however, this pattern also ceases beyond that range. In reviewing the successful and failed outcomes simulatenously, it can be observed that it almost symmetrical in nature, which is a logical observation given they a diametrically opposed percentages of a whole. The percentage of cancelled outcomes is null within the constraints of this analysis. 
 
